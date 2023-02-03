@@ -9,7 +9,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
   return (
     <html lang='en'>
       <head />
-      <body className={`${inter.variable} font-sans`}>
+      <body className={`${inter.variable} ${lora.variable} ${inconsolata.variable} font-sans`}>
         <Header />
         {children}
       </body>

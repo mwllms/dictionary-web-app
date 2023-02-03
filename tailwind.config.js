@@ -29,6 +29,8 @@ module.exports = {
     extend: {
       fontFamily: {
         sans: ['var(--font-inter)', ...fontFamily.sans],
+        serif: ['var(--font-lora)', ...fontFamily.serif],
+        mono: ['var(--font-inconsolata)', ...fontFamily.mono],
       },
     },
   },
